@@ -45,7 +45,7 @@ main {
 }
 
 nav {
-    height: 70px;
+    min-height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,12 +82,14 @@ nav .text {
 }
 
 .box-3 {
-    height: 70px;
+    height: 100%;
     flex-basis: 200px;
     background-color: rgb(88, 87, 87);
     color: rgb(204, 60, 60);
     font-size: 20px;
     font-weight: bold;
-    text-align: center;
-    line-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
